@@ -130,10 +130,10 @@ The staircase is right-aligned, composed of # symbols and spaces, and has a heig
     for(let i=1; i <= n; i++){
       const space =  ' '.repeat(n-i) 
       const hash =  "#".repeat(i)
-      return(space + hash)
+      console.log(space + hash)
       
     }
- return;
+
 }
 console.log(staircase(4))
 
